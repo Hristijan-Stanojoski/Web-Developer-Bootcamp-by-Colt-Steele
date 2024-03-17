@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+body {
+  font-family: 'Martel+Sans', sans-serif;
+  background-color: cadetblue;
+  overflow: hidden;
+  margin: 0;
+}
+
+.container,
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 50vh;
+  color: #fff;
+}
+
+.container,
+ul {
+  display: flex;
+  line-height: 30px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  list-style-type: none;
+}
